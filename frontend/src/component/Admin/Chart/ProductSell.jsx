@@ -7,7 +7,7 @@ const ProductSell = () => {
    
   <iframe 
   style={{width:"100%", height:"500px"}}
-  src="https://charts.mongodb.com/charts-ercomerce-hpcar/embed/charts?id=6374672b-8fc4-45cd-8e5b-04b13456456b&maxDataAge=60&theme=light&autoRefresh=true"
+  src=""
   title="YouTube video"
 ></iframe>
 </div>

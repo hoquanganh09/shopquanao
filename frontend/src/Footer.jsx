@@ -24,7 +24,7 @@ const Footer = () => {
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
           </svg>
           <strong>Địa chỉ:</strong>
-          <h6>Bich la, trieu phong, trieu dong, tp.hcm</h6>
+          <h6>Bắc Từ Liêm, Hà Nội</h6>
         </div>
 
         <div className="location flex py__10">
@@ -39,7 +39,7 @@ const Footer = () => {
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
           <strong>Email:</strong>
-          <h6>army2406@gmail.com</h6>
+          <h6>quanganhho99@gmail.com</h6>
         </div>
 
         <div className="location flex py__10">
@@ -54,7 +54,7 @@ const Footer = () => {
             <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
           </svg>
           <strong>sdt:</strong>
-          <h6>+84 67 837 635</h6>
+          <h6>+84 918 655 089</h6>
         </div>
 
         <div className="location flex py__10">
@@ -70,10 +70,10 @@ const Footer = () => {
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
           </svg>
           <strong>Time:</strong>
-          <h6>10:00 Am - 10:00 Pm (các ngày trong tuần)</h6>
+          <h6>08:00 Am - 10:00 Pm</h6>
         </div>
       </div>
-      <div className="app" style={{
+      {/* <div className="app" style={{
          margin:"10px"
         }}>
             <h1>Install App</h1>
@@ -82,15 +82,15 @@ const Footer = () => {
             <Link to="/creator"><img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/app-store.jpg" style={{"width":"150px","margin":"10px"}} /></Link>
             <Link to="/creator"><img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/google-play.jpg" style={{"width":"150px","margin":"10px"}} /></Link>
             </div>
-        </div>
+        </div> */}
       {/* Footer 2nd part */}
       <div className="mobile">
-        <div className="footer__2nd__part">
+        {/* <div className="footer__2nd__part">
              <h5>Account</h5>
              <Link to="/login"><h3>Đăng nhập</h3></Link>         
              <Link to="/login"><h3>Đăng ký</h3></Link>
              <Link to="/password/forgot"><h3>Quên mật khẩu</h3></Link>
-        </div>
+        </div> */}
         {/* Footer 3rd part */}
         <div className="footer__2nd__part">
              <h5>Follow us</h5>
