@@ -143,7 +143,7 @@ const Header = () => {
                 objectFit: "contain",
                 cursor: "pointer",
               }}
-            /><div className="textLogo"><h1>SHERIF</h1></div>
+            /><div className="textLogo"><h1> ----- SHERIF ----- </h1></div>
             
           </Link>
         </div>
