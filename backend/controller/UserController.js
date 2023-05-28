@@ -24,7 +24,7 @@ exports.createUser = catchAsyncErrors(async (req, res, next) => {
         email,
         password,
 
-        // avatar: { public_id: myCloud.public_id, url: myCloud.secure_url },
+        // avatar: { public_id: myCloud.public_id, url: myCloud.secure_url },///
       });
     } else {
       const myCloud = await cloudinary.v2.uploader.upload(avatar, {
