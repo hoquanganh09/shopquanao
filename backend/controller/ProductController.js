@@ -85,7 +85,7 @@ exports.getAdminProducts = catchAsyncErrors(async (req, res, next) => {
   });
 });
 
-// lay tat ca san pham 
+// get all product 
 exports.getAllProducts = catchAsyncErrors(async (req, res) => {
   const resultPerPage = 16;
 
